@@ -5,9 +5,9 @@ import Typography from '@mui/material/Typography';
 
 function Navbar() {
   return (
-    <AppBar position="static" color="primary">
+    <AppBar position="static" color="primary" elevation={1}>
       <Toolbar>
-        <Typography variant="h6" component="div">
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Serraville Logistics Admin Dashboard
         </Typography>
       </Toolbar>
